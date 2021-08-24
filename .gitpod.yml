@@ -1,0 +1,10 @@
+
+# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+tasks:
+  - init: npm i -g mongodb-realm-cli
+    command: realm-cli login --api-key "hzyfnfrx" --private-api-key "d1d9fc2a-5df1-4b18-878f-e71b2d2fe560"
+
+# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 3000
+    onOpen: open-preview
