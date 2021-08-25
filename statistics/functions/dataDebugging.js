@@ -1,9 +1,10 @@
+// exports(8011, "LP3", "20210725", "20210726")
 exports = async function (fondo, serie, fechaInicio, fechaFin) {
 	
 	const paramsFirstStatement = {
     RUN_FONDO: fondo,
     SERIE: serie,
-    FECHA_CARTOLA_DATE: { $lt : fechaInicio }
+    FECHA_CARTOLA_DATE: { $gte : fechaInicio }
   };
   
 	const paramsSecondStatement = {
