@@ -6,9 +6,5 @@
     {
         "name": "insertStatement",
         "private": false
-    },
-    {
-        "name": "dataDebugging",
-        "private": false
     }
 ]
