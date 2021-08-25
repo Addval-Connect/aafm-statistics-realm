@@ -1,10 +1,14 @@
 [
-    {
-        "name": "calculateFlow",
-        "private": false
-    },
-    {
-        "name": "insertStatement",
-        "private": false
-    }
+	{
+		"name": "calculateFlow",
+		"private": false
+	},
+	{
+		"name": "insertStatement",
+		"private": false
+	},
+	{
+		"name": "dataDebugging",
+		"private": false
+	}
 ]
