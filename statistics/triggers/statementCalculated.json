@@ -1,4 +1,5 @@
 {
+    "id": "60cd5f24ae04e50a6c87769d",
     "name": "statementCalculated",
     "type": "DATABASE",
     "config": {
@@ -15,5 +16,5 @@
         "unordered": false
     },
     "function_name": "calculateFlow",
-    "disabled": false
+    "disabled": true
 }
